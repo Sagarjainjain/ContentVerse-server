@@ -36,7 +36,7 @@ export const postAwardMovies = async (req, res) => {
   const newMovie = new Movies({
     title,
     discription,
-    awardtitle,
+    award,
     genre,
     rating,
     profilePage,

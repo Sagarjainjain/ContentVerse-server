@@ -6,7 +6,7 @@ import performamnce from "./routes/movies/performance.js"
 import movierouter from "./routes/movies/movie.js";
 import awardrouter from "./routes/movies/award.js";
 import factsrouter from "./routes/movies/facts.js";
-import userrouter from "./routes/user/user.js"
+// import userrouter from "./routes/user/user.js"
 const app = express();
 import mongoose from "mongoose";
 import dotenv from "dotenv";
@@ -19,7 +19,7 @@ app.use(cors());
 
 
 
-app.use('/user', userrouter)
+// app.use('/user', userrouter)
 app.use("/talent", talent);
 app.use("/performance", performamnce);
 app.use("/award", awardrouter);

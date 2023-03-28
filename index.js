@@ -25,6 +25,9 @@ app.use("/performance", performamnce);
 app.use("/award", awardrouter);
 app.use("/fact", factsrouter);
 app.use("/movie", movierouter);
+app.use("/", (req, res) => {
+  res.send("app running")
+})
 
 const PORT = process.env.PORT;
 

@@ -23,8 +23,7 @@ export const getMovie = async (req, res) => {
 
 // posting a new movie
 export const postMovie = async (req, res) => {
-  const {
-    
+  const {  
     title,
     discription,
     genre,
